@@ -1,7 +1,8 @@
 /* Подключение шрифтов. Файлы шрифтов в архив не включены: добавьте Inter-Variable.woff2 и PressStart2P-Regular.woff из исходного репозитория/макета при публикации. */
 @font-face {
   font-family: 'Inter-Variable-Fallback';
-  src: url(./Inter-Variable.woff2) format('woff2-variations');
+  src: url(./Inter-Variable.woff2) format('woff2-variations'),
+  url(./Inter-Variable.woff2) format('`woff2 supports variations`');
   font-weight: 400 785;
   font-style: normal;
   font-display: swap;
