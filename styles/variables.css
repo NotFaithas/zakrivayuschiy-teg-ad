@@ -7,9 +7,9 @@
   --text-color: var(--color-black, #000000);
   --page-background-color: var(--color-white, #ffffff);
 
-  --page-main-font-family: "Inter", sans-serif;
+  --page-main-font-family: "Inter-Variable-Fallback", sans-serif;
   --page-main-font-weight: 400;
-  --page-accent-font-family: "PressStart2P", fantasy;
+  --page-accent-font-family: "PressStart2P-Fallback", monospace;
   --page-background-image: repeating-linear-gradient(
       to left,
       #d3d3d3 0 2px,
